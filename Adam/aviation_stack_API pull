@@ -1,0 +1,8 @@
+Must be http because https costs $$$
+
+http://api.aviationstack.com/v1/flights?access_key=4e65818063b0287c52f06045f4d5660c
+this is the entire pull for world at that time -- exhaustive amount of data, up to ~270k flights
+
+
+http://api.aviationstack.com/v1/flights?access_key=4e65818063b0287c52f06045f4d5660c&flight_date=2022-2-24
+if you want historical data
