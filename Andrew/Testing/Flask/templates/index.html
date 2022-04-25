@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{ title }} - Flew</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/flight_styles.css') }}" />
+     </head>
+    <div>
+        <body>
+            <h1>Flew</h1>
+
+            <form action="" class="center">
+                <label for="flightnum">Flight Number: </label><br>
+                <input type="text" id="flightnum" name="flightnum">
+                <label for="airline">Airline: </label><br>
+                <input type="text" id="airline" name="airline"><br><br>
+                <input type="submit" value="Calculate">
+            </form>
+        </body>
+    </div>
+</html>

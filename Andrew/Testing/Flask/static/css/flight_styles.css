@@ -1,0 +1,19 @@
+body {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+    background-image: url("https://cdn.pixabay.com/photo/2020/10/08/15/44/clouds-5638315_960_720.jpg");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /*background: gray;
+    opacity: 80%; */
+}
