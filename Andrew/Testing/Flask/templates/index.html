@@ -4,17 +4,14 @@
         <title>{{ title }} - Flew</title>
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/flight_styles.css') }}" />
      </head>
-    <div>
-        <body>
-            <h1>Flew</h1>
-
-            <form action="" class="center">
-                <label for="flightnum">Flight Number: </label><br>
-                <input type="text" id="flightnum" name="flightnum">
-                <label for="airline">Airline: </label><br>
-                <input type="text" id="airline" name="airline"><br><br>
-                <input type="submit" value="Calculate">
-            </form>
-        </body>
+    <div class="form-style">
+        <form>
+            <fieldset>
+                <h1>Flew</h1>
+                <label for="flightNum"><span>Flight Number <span class="required"></span></span><input type="text" class="flightNum" name="flightNum" value="" /></label>
+                <label for="airline"><span>Airline <span class="required"></span></span><input type="text" class="airline" name="airline" value="" /></label>
+                <label><span> </span><input type="submit" value="Submit" /></label>
+            </fieldset>
+        </form>
     </div>
 </html>
