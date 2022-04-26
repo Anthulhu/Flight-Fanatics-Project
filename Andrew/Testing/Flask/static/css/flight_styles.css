@@ -9,11 +9,67 @@ body {
     background-size: cover;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    /*background: gray;
-    opacity: 80%; */
+.form-style {
+    max-width: 450px;
+}
+
+.form-style h1{
+    color: white;
+}
+
+.form-style label > span{
+    float: left;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.form-style fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid gray;
+    padding: 20px;
+    background: black;
+    opacity: 80%;
+    box-shadow: inset 0px 0px 15px gray;
+    -moz-box-shadow: inset 0px 0px 15px gray;
+    -webkit-box-shadow: inset 0px 0px 15px gray;
+}
+
+.form-style input[type=text]{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid black;
+    outline: none;
+    color: white;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px gray;
+    -moz-box-shadow: inset 1px 1px 4px gray;
+    -webkit-box-shadow: inset 1px 1px 4px gray;
+    background: white;
+    width: 50%;
+}
+
+.form-style input[type=submit]{
+    background: plum;
+    border: 1px solid red;
+    padding: 5px 15px 5px 15px;
+    color: black;
+    box-shadow: inset -1px -1px 3px pink;
+    -moz-box-shadow: inset -1px -1px 3px pink;
+    -webkit-box-shadow: inset -1px -1px 3px pink;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: bold;
+}
+
+.required{
+    color: red;
+    font-weight: normal;
 }
