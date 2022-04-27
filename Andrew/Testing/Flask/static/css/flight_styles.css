@@ -1,75 +1,28 @@
-body {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 72px);
-    background-image: url("https://cdn.pixabay.com/photo/2020/10/08/15/44/clouds-5638315_960_720.jpg");
-    height: 1000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-}
-
-.form-style {
-    max-width: 450px;
-}
-
-.form-style h1{
-    color: white;
-}
-
-.form-style label > span{
-    float: left;
-    width: 100px;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-    text-shadow: 1px 1px 1px black;
-}
-
-.form-style fieldset{
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    margin: 0px 0px 10px 0px;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
     border: 1px solid gray;
-    padding: 20px;
-    background: black;
-    opacity: 80%;
-    box-shadow: inset 0px 0px 15px gray;
-    -moz-box-shadow: inset 0px 0px 15px gray;
-    -webkit-box-shadow: inset 0px 0px 15px gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
 }
 
-.form-style input[type=text]{
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border: 1px solid black;
-    outline: none;
+input[type=submit] {
+    background-color: #d42222;
     color: white;
-    padding: 5px 8px 5px 8px;
-    box-shadow: inset 1px 1px 4px gray;
-    -moz-box-shadow: inset 1px 1px 4px gray;
-    -webkit-box-shadow: inset 1px 1px 4px gray;
-    background: white;
-    width: 50%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.form-style input[type=submit]{
-    background: plum;
-    border: 1px solid red;
-    padding: 5px 15px 5px 15px;
-    color: black;
-    box-shadow: inset -1px -1px 3px pink;
-    -moz-box-shadow: inset -1px -1px 3px pink;
-    -webkit-box-shadow: inset -1px -1px 3px pink;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    font-weight: bold;
+input[type=submit]:hover {
+    background-color: #740f0f;
 }
 
-.required{
-    color: red;
-    font-weight: normal;
+.form {
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    padding: 100px;
 }
