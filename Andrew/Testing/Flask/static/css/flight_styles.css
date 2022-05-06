@@ -1,28 +1,31 @@
+/* Changes properties for the areas using text */
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid gray;
+    padding: 15px;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
+/* Changes the base properties of the button */
 input[type=button] {
-    background-color: #d42222;
-    color: white;
-    padding: 12px 20px;
-    border: none;
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: solid black;
     border-radius: 4px;
     cursor: pointer;
 }
 
+/* Modifies properties of the button when you hover over it with your mouse */
 input[type=button]:hover {
-    background-color: #740f0f;
+    background-color: orange;
 }
 
+/* Modifies the background form */
 .form {
     border-radius: 50px;
-    background-color: #f2f2f2;
+    background-color: #66c4ff;
     padding: 100px;
 }
