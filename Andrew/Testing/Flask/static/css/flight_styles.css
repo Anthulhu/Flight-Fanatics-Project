@@ -8,7 +8,7 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
 }
 
-input[type=submit] {
+input[type=button] {
     background-color: #d42222;
     color: white;
     padding: 12px 20px;
@@ -17,7 +17,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type=button]:hover {
     background-color: #740f0f;
 }
 
