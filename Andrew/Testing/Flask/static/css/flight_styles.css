@@ -10,7 +10,7 @@ input[type=text], select, textarea {
 
 /* Changes the base properties of the button */
 input[type=button] {
-    background-color: yellow;
+    background-color: rgb(255, 255, 164);
     color: black;
     padding: 10px 20px;
     border: solid black;
@@ -20,12 +20,12 @@ input[type=button] {
 
 /* Modifies properties of the button when you hover over it with your mouse */
 input[type=button]:hover {
-    background-color: orange;
+    background-color: rgb(255, 245, 109);
 }
 
 /* Modifies the background form */
 .form {
     border-radius: 50px;
-    background-color: #66c4ff;
+    background-color: #addfff;
     padding: 100px;
 }
