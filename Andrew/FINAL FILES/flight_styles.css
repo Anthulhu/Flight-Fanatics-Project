@@ -1,0 +1,31 @@
+/* Changes properties for the areas using text */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* Changes the base properties of the button */
+input[type=button] {
+    background-color: rgb(255, 255, 164);
+    color: black;
+    padding: 10px 20px;
+    border: solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Modifies properties of the button when you hover over it with your mouse */
+input[type=button]:hover {
+    background-color: rgb(255, 245, 109);
+}
+
+/* Modifies the background form */
+.form {
+    border-radius: 50px;
+    background-color: #addfff;
+    padding: 100px;
+}

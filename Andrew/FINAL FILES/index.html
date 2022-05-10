@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <script>
+        /* Since it isn't done, using random number generator to simulate */
+        function rando() {
+            document.getElementById("chance").innerHTML = Math.floor(Math.random() * 95) + 5;
+        }
+    </script>
+
+    <!-- Title section of th website -->
+    <head>
+        <title>{{ title }} - Flew</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/flight_styles.css') }}" />
+     </head>
+
+
+     <!-- Overall body of the website -->
+     <div class="form">
+         <h1>Flew</h1>
+         <form action="">
+            <label for="number">Airline</label>
+            <input type="text" id="number" name="flightnum">
+
+            <label for="airline">Airport</label>
+            <input type="text" id="airline" name="airline">
+
+            <input type="button" onclick="rando()" value="Submit"></br></br>
+
+            <label type="text" id="output" name="output">Delay chance: </label>
+            <label type="text" id="chance" name="output"></label>
+            <label type="text">%</label>
+
+         </form>
+     </div>
+
+
+</html>
